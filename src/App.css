@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
+body{
+  background: #15424b;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.img{
+  width: 285px;
+  height: 350px;
+  max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.flex{
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 10px;
+    padding: 15px;
+    width: 250px;
+    background: black;
+    color: white  ;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.style:hover{
+  
+  width: 220px;
+  transition: 1s;
+  height: 190px;
+}
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  flex-wrap:wrap;
+
+}
+
+.inp{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.text{
+
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  letter-spacing: 3px;
+}
+.text1{
+  display: flex;
+  justify-content: center;
+  font-family: 'Inconsolata', monospace;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 19px;
+  letter-spacing: 2px;
+
+}
+.input{
+  width: 850px;
+  height: 35px;
+  border-radius: 20px;
+}
+.button{
+  width: 130px;
+  border-radius: 20px;
+  background: rgb(255, 24, 255);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.title{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.class{
+  width: 20px;
+  height: 20px;
+  background: white;
+  margin-left: 10px;
 }
+.inp{
+  color: white;
+  margin-left: 200px;
+  width: 600px;
+  height: 30px;
+  border-radius: 20px;
+  background: rgb(0,25,36);
+  background: linear-gradient(90deg, rgba(0,25,36,1) 0%, rgba(9,121,117,1) 35%, rgba(0,232,255,1) 100%);
+}
+.text1:hover{
+  font-size: 21px;
+  letter-spacing: 5px;
+  color: red;
+  transition: 1s;
+}
+.container{
+  max-width: 1000px;
+  margin: 100px auto;
+}
+
+.col{
+  width: 25px;
+  height: 25px;
+  background: orange;
+  border-radius: 100%;
+}
+
